@@ -6,7 +6,7 @@ Ctrl + Shit + P    ->     Create a Flutter project from template
 
 Enable different platform support
 
-Web
+**Web**
 
 flutter config --enable-web
 
@@ -19,7 +19,8 @@ flutter config --enable-linux-desktop
 
 flutter create .
 
-Run Your App
+
+**Running Your App**
 
 Now you can run your app on the new platform using:
 
