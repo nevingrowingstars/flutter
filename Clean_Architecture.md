@@ -7,80 +7,143 @@ A feature-based folder structure is an excellent choice for scalability and modu
 lib/
 │
 ├── core/
+
 │   ├── constants/
+
 │   │   ├── app_colors.dart
+
 │   │   ├── app_styles.dart
+
 │   │   └── app_strings.dart
+
 │   ├── themes/
+
 │   │   ├── light_theme.dart
+
 │   │   ├── dark_theme.dart
+
 │   │   └── theme_provider.dart
+
 │   ├── utils/
+
 │   │   ├── adaptive_util.dart
+
 │   │   ├── device_helper.dart
+
 │   │   └── responsive_layout.dart
+
 │   └── widgets/
+
 │       ├── common_button.dart
+
 │       ├── common_dialog.dart
+
 │       ├── loading_indicator.dart
+
 │       └── reusable_app_bar.dart
 │
 ├── features/
+
 │   ├── classroom/
+
 │   │   ├── data/
+
 │   │   │   ├── models/
+
 │   │   │   │   └── classroom_model.dart
+
 │   │   │   ├── repositories/
+
 │   │   │   │   └── classroom_repository.dart
+
 │   │   │   └── data_sources/
+
 │   │   │       └── classroom_remote_data_source.dart
+
 │   │   ├── presentation/
+
 │   │   │   ├── screens/
+
 │   │   │   │   └── classroom_screen.dart
+
 │   │   │   ├── widgets/
+
 │   │   │   │   └── classroom_toolbar.dart
+
 │   │   │   └── state/
+
 │   │   │       └── classroom_cubit.dart
 │   │   └── domain/
+
 │   │       ├── entities/
+
 │   │       │   └── classroom_entity.dart
+
 │   │       ├── usecases/
+
 │   │       │   └── fetch_classroom_data.dart
+
 │   │       └── services/
+
 │   │           └── classroom_service.dart
+
 │   ├── lessontool/
+
 │   │   ├── (similar to classroom structure)
+
 │   ├── homework/
+
 │       ├── (similar to classroom structure)
+
 │
 ├── shared/
+
 │   ├── widgets/
+
 │   │   ├── page_break_widget.dart
+
 │   │   ├── session_recorder.dart
+
 │   │   ├── theme_switcher.dart
+
 │   │   └── print_preview_widget.dart
+
 │   ├── extensions/
+
 │   │   ├── string_extensions.dart
+
 │   │   ├── date_extensions.dart
+
 │   │   └── widget_extensions.dart
+
 │   └── helpers/
+
 │       ├── api_helper.dart
+
 │       ├── logger.dart
+
 │       └── validation_helper.dart
+
 │
 ├── app/
+
 │   ├── app.dart
+
 │   ├── routes/
 │   │   ├── app_routes.dart
+
 │   │   └── route_generator.dart
+
 │   ├── localization/
+
 │   │   ├── en.json
+
 │   │   └── es.json
+
 │   └── app_config.dart
 │
 └── main.dart
 
-Key Highlights:
 
 ##### Core Module:
 
