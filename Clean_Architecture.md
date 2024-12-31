@@ -3,14 +3,17 @@
 
 A feature-based folder structure is an excellent choice for scalability and modularity in a Flutter application. Below is a suggested folder structure tailored to your requirements:
 
+**lib/core**
+
 ![Flutter_Folder_Core](https://github.com/user-attachments/assets/61a65fa7-9a31-4dde-97c2-0f999b7cf0e9)
 
 
-features/
+**lib/features/**
 
 ![Flutter_Feature_Folder](https://github.com/user-attachments/assets/2dad1e0b-3c91-4b42-8f35-6169b485a751)
 
 
+**lib/features/**
 
 ![Flutter_Folder_Shared](https://github.com/user-attachments/assets/90cdde22-9f5e-46fb-a93e-7cbd510ddeef)
 
