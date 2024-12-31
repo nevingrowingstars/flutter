@@ -36,11 +36,12 @@ This structure ensures the app is modular, scalable, and easy to maintain, while
 ![Flutter_Feature_Folder_2](https://github.com/user-attachments/assets/b8ac05a2-c168-4630-8b27-03767acfcc64)
 
 
-![Doc_Core](https://github.com/user-attachments/assets/92fcefbd-6fd5-4cca-b135-6cc925aed50a)
 
+##### Documentation
 
+![Doc_Core](https://github.com/user-attachments/assets/b63f59cd-c55c-4d1c-89b2-2e9ab1b4a51b)
 
-![Doc_Core](https://github.com/user-attachments/assets/7554184f-d2e9-406f-bd0d-a3dbfce8c01f)
+![Doc_Shared](https://github.com/user-attachments/assets/1d994020-34b2-44a5-8479-c18c1f7ae1ad)
 
 
 
