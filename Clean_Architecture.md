@@ -7,6 +7,11 @@ A feature-based folder structure is an excellent choice for scalability and modu
 
 
 
+
+![Flutter_Folder_Shared](https://github.com/user-attachments/assets/90cdde22-9f5e-46fb-a93e-7cbd510ddeef)
+
+
+
 ##### Core Module:
 
 Centralized utilities, constants, and themes, ensuring consistency across the app. The responsive_layout.dart handles dynamic layouts for responsiveness, while adaptive_util.dart facilitates platform-specific adaptations.
