@@ -29,7 +29,6 @@ Contains app-wide configurations, routing, and localization for managing navigat
 
 This structure ensures the app is modular, scalable, and easy to maintain, while facilitating responsiveness, adaptability, and reusability across web and tablet platforms.
 
-![Flutter_Feature_Folder_1](https://github.com/user-attachments/assets/58688da4-d0b2-423a-9842-892b6cc6b62d)
 
 ![Flutter_Feature_Folder_1](https://github.com/user-attachments/assets/6e6f7f5b-def8-4d10-becc-a378f7559421)
 
