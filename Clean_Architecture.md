@@ -31,7 +31,8 @@ This structure ensures the app is modular, scalable, and easy to maintain, while
 
 ![Flutter_Feature_Folder_1](https://github.com/user-attachments/assets/58688da4-d0b2-423a-9842-892b6cc6b62d)
 
-![Flutter_Feature_Folder_2](https://github.com/user-attachments/assets/bdbe36e0-21e2-453c-980c-dc76ebf2a178)
+![Flutter_Feature_Folder_2](https://github.com/user-attachments/assets/b8ac05a2-c168-4630-8b27-03767acfcc64)
+
 
 
 
