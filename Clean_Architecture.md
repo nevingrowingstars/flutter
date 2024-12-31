@@ -65,15 +65,15 @@ This structure ensures the app is modular, scalable, and easy to maintain, while
 **Subfolders:
 **
 
-models/: Contains data models representing the structure of classroom-related data.
+##### models/: Contains data models representing the structure of classroom-related data.
 
 Example: classroom_model.dart
 
-repositories/: Defines interfaces and implementations for data access and manipulation.
+##### repositories/: Defines interfaces and implementations for data access and manipulation.
 
 Example: classroom_repository.dart
 
-data_sources/: Manages the actual source of data, such as APIs or databases.
+##### data_sources/: Manages the actual source of data, such as APIs or databases.
 
 Example: classroom_remote_data_source.dart
 
@@ -83,15 +83,15 @@ Example: classroom_remote_data_source.dart
 
 Subfolders:
 
-entities/: Defines domain models as immutable objects.
+##### entities/: Defines domain models as immutable objects.
 
 Example: classroom_entity.dart
 
-usecases/: Encapsulates specific business logic, such as fetching classroom data.
+##### usecases/: Encapsulates specific business logic, such as fetching classroom data.
 
 Example: fetch_classroom_data.dart
 
-services/: Includes services used within the domain logic.
+##### services/: Includes services used within the domain logic.
 
 Example: classroom_service.dart
 
@@ -101,35 +101,35 @@ Example: classroom_service.dart
 
 Subfolders:
 
-screens/: Contains screen-level implementations for each platform.
+##### screens/: Contains screen-level implementations for each platform.
 
-web/: Screens optimized for web layouts.
+##### web/: Screens optimized for web layouts.
 
 Example: classroom_web_screen.dart
 
-tablet/: Screens optimized for tablet layouts.
+##### tablet/: Screens optimized for tablet layouts.
 
 Example: classroom_tablet_screen.dart
 
-shared/: Shared base screens or common layouts.
+##### shared/: Shared base screens or common layouts.
 
 Example: classroom_base_screen.dart
 
-widgets/: Contains reusable UI components for the feature.
+##### widgets/: Contains reusable UI components for the feature.
 
-web/: Widgets specific to the web platform.
+##### web/: Widgets specific to the web platform.
 
 Example: classroom_web_toolbar.dart
 
-tablet/: Widgets specific to the tablet platform.
+##### tablet/: Widgets specific to the tablet platform.
 
 Example: classroom_tablet_toolbar.dart
 
-shared/: Shared widgets used across platforms.
+##### shared/: Shared widgets used across platforms.
 
 Example: classroom_toolbar.dart
 
-state/: Manages the state of the classroom feature using Cubit, Bloc, or similar state management solutions.
+##### state/: Manages the state of the classroom feature using Cubit, Bloc, or similar state management solutions.
 
 Example: classroom_cubit.dart
 
@@ -139,11 +139,11 @@ Example: classroom_cubit.dart
 
 Subfolders:
 
-utils/: Contains helper classes for web and tablet platforms.
+##### utils/: Contains helper classes for web and tablet platforms.
 
 Example: classroom_web_util.dart
 
-themes/: Defines platform-specific theme configurations.
+##### themes/: Defines platform-specific theme configurations.
 
 Example: classroom_web_theme.dart
 
