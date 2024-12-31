@@ -44,11 +44,12 @@ This structure ensures the app is modular, scalable, and easy to maintain, while
 
 #### Folder Descriptions
 
-**1. data/
-**
-Purpose: Handles all data-related operations such as models, repositories, and data sources.
+##### 1. data/
 
-Subfolders:
+**Purpose**: Handles all data-related operations such as models, repositories, and data sources.
+
+**Subfolders:
+**
 
 models/: Contains data models representing the structure of classroom-related data.
 
@@ -62,9 +63,9 @@ data_sources/: Manages the actual source of data, such as APIs or databases.
 
 Example: classroom_remote_data_source.dart
 
-**2. domain/
-**
-Purpose: Contains the core business logic for the classroom feature.
+##### 2. domain/
+
+**Purpose**: Contains the core business logic for the classroom feature.
 
 Subfolders:
 
@@ -80,9 +81,9 @@ services/: Includes services used within the domain logic.
 
 Example: classroom_service.dart
 
-**3. presentation/
-**
-Purpose: Handles the UI components for the classroom feature.
+##### 3. presentation/
+
+**Purpose**: Handles the UI components for the classroom feature.
 
 Subfolders:
 
@@ -118,9 +119,9 @@ state/: Manages the state of the classroom feature using Cubit, Bloc, or similar
 
 Example: classroom_cubit.dart
 
-**4. platform/
-**
-Purpose: Provides platform-specific utilities and themes.
+##### 4. platform/
+
+**Purpose**: Provides platform-specific utilities and themes.
 
 Subfolders:
 
