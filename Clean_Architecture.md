@@ -10,8 +10,6 @@ A feature-based folder structure is an excellent choice for scalability and modu
 
 **lib/features/**
 
-![Flutter_Feature_Folder](https://github.com/user-attachments/assets/2dad1e0b-3c91-4b42-8f35-6169b485a751)
-
 ![Flutter_Feature_Folder_updated](https://github.com/user-attachments/assets/f264543d-665f-42a3-bc1f-3aeb4e9f823f)
 
 
