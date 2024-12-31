@@ -3,22 +3,6 @@
 
 A feature-based folder structure is an excellent choice for scalability and modularity in a Flutter application. Below is a suggested folder structure tailored to your requirements:
 
-**lib/core**
-
-![Flutter_Folder_Core](https://github.com/user-attachments/assets/61a65fa7-9a31-4dde-97c2-0f999b7cf0e9)
-
-
-**lib/features/**
-
-![Flutter_Feature_Folder_updated](https://github.com/user-attachments/assets/f264543d-665f-42a3-bc1f-3aeb4e9f823f)
-
-
-**lib/features/**
-
-![Flutter_Folder_Shared](https://github.com/user-attachments/assets/90cdde22-9f5e-46fb-a93e-7cbd510ddeef)
-
-
-
 ##### Core Module:
 
 Centralized utilities, constants, and themes, ensuring consistency across the app. The responsive_layout.dart handles dynamic layouts for responsiveness, while adaptive_util.dart facilitates platform-specific adaptations.
@@ -44,3 +28,115 @@ The core/utils/ folder includes utilities like responsive_layout.dart and device
 Contains app-wide configurations, routing, and localization for managing navigation and supporting multiple languages.
 
 This structure ensures the app is modular, scalable, and easy to maintain, while facilitating responsiveness, adaptability, and reusability across web and tablet platforms.
+
+
+
+**lib/core**
+
+![Flutter_Folder_Core](https://github.com/user-attachments/assets/61a65fa7-9a31-4dde-97c2-0f999b7cf0e9)
+
+
+**lib/features/**
+
+![Flutter_Feature_Folder_updated](https://github.com/user-attachments/assets/f264543d-665f-42a3-bc1f-3aeb4e9f823f)
+
+
+
+#### Folder Descriptions
+
+**1. data/
+**
+Purpose: Handles all data-related operations such as models, repositories, and data sources.
+
+Subfolders:
+
+models/: Contains data models representing the structure of classroom-related data.
+
+Example: classroom_model.dart
+
+repositories/: Defines interfaces and implementations for data access and manipulation.
+
+Example: classroom_repository.dart
+
+data_sources/: Manages the actual source of data, such as APIs or databases.
+
+Example: classroom_remote_data_source.dart
+
+**2. domain/
+**
+Purpose: Contains the core business logic for the classroom feature.
+
+Subfolders:
+
+entities/: Defines domain models as immutable objects.
+
+Example: classroom_entity.dart
+
+usecases/: Encapsulates specific business logic, such as fetching classroom data.
+
+Example: fetch_classroom_data.dart
+
+services/: Includes services used within the domain logic.
+
+Example: classroom_service.dart
+
+**3. presentation/
+**
+Purpose: Handles the UI components for the classroom feature.
+
+Subfolders:
+
+screens/: Contains screen-level implementations for each platform.
+
+web/: Screens optimized for web layouts.
+
+Example: classroom_web_screen.dart
+
+tablet/: Screens optimized for tablet layouts.
+
+Example: classroom_tablet_screen.dart
+
+shared/: Shared base screens or common layouts.
+
+Example: classroom_base_screen.dart
+
+widgets/: Contains reusable UI components for the feature.
+
+web/: Widgets specific to the web platform.
+
+Example: classroom_web_toolbar.dart
+
+tablet/: Widgets specific to the tablet platform.
+
+Example: classroom_tablet_toolbar.dart
+
+shared/: Shared widgets used across platforms.
+
+Example: classroom_toolbar.dart
+
+state/: Manages the state of the classroom feature using Cubit, Bloc, or similar state management solutions.
+
+Example: classroom_cubit.dart
+
+**4. platform/
+**
+Purpose: Provides platform-specific utilities and themes.
+
+Subfolders:
+
+utils/: Contains helper classes for web and tablet platforms.
+
+Example: classroom_web_util.dart
+
+themes/: Defines platform-specific theme configurations.
+
+Example: classroom_web_theme.dart
+
+
+
+**lib/features/**
+
+![Flutter_Folder_Shared](https://github.com/user-attachments/assets/90cdde22-9f5e-46fb-a93e-7cbd510ddeef)
+
+
+
